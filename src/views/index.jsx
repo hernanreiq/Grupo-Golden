@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import { Header } from "./partials/header";
 
 class Index extends Component {
     render() {
         return (
-            <h1>Grupo Golden</h1>
+            <Header />
         )
     }
 }
