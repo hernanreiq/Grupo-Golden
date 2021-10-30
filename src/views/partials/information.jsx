@@ -4,10 +4,10 @@ import photoInformation from "../../img/Sobre Nosotros.png";
 export function Information() {
     return (
         <section className="information">
-            <div className="title title-information">
+            <div className="title-information">
                 <img src={photoInformation} alt="title information" />
             </div>
-            <div className="text-justify py-5 h5 px-5">
+            <div className="text-justify py-5 h5 px-3">
                 <div className="container">
                     <p>
                         Grupo Golden nace de la necesidad de querer emprender, para de esta manera poder crecer a nivel ético y
