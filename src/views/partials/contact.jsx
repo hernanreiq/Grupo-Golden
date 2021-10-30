@@ -4,33 +4,29 @@ import photoContact from "../../img/Contacto.png";
 class Contact extends Component {
     render() {
         return (
-            <div class="contacto">
-                <div class="imagencontacto">
-                    <img src={photoContact} />
+            <section className="contact">
+                <div className="title-contact">
+                    <img src={photoContact} alt="contact" />
                 </div>
-                <div class="contenedor-form">
-                    <form class="form" action="C:\Users\MaReiq\Desktop\Grupo Golden\Web\PHP\contacto.php" method="POST">
+                <div className="container py-5 px-3">
+                    <form className="form mx-auto" action="C:\Users\MaReiq\Desktop\Grupo Golden\Web\PHP\contacto.php" method="POST" autoComplete="off">
                         <br />
-                        <label for="nombre" class="label-form">Nombre: </label>
-                        <input type="text" class="input-form" placeholder="Escriba su nombre..." id="nombre" name="nombre"
-                            autocomplete="off" required />
+                        <label htmlFor="nombre" className="label-form">Nombre: </label>
+                        <input type="text" className="input-form" placeholder="Escriba su nombre..." id="nombre" name="nombre" required />
 
-                        <label for="asunto" class="label-form">Asunto: </label>
-                        <input type="text" class="input-form" placeholder="Escriba el asunto..." id="asunto" name="asunto"
-                            autocomplete="off" required />
+                        <label htmlFor="asunto" className="label-form">Asunto: </label>
+                        <input type="text" className="input-form" placeholder="Escriba el asunto..." id="asunto" name="asunto" required />
 
-                        <label for="correo" class="label-form">Correo electrónico: </label>
-                        <input type="email" class="input-form" placeholder="Escriba su correo electrónico..." id="correo"
-                            name="correo" autocomplete="off" required />
+                        <label htmlFor="correo" className="label-form">Correo electrónico: </label>
+                        <input type="email" className="input-form" placeholder="Escriba su correo electrónico..." id="correo" name="correo" required />
 
-                        <label for="mensaje" class="label-form">Mensaje: </label>
-                        <textarea class="textarea-form" placeholder="Escriba su mensaje aquí..." id="mensaje" name="mensaje"
-                            autocomplete="off" required></textarea>
+                        <label htmlFor="mensaje" className="label-form">Mensaje: </label>
+                        <textarea className="textarea-form" placeholder="Escriba su mensaje aquí..." id="mensaje" name="mensaje" required></textarea>
 
-                        <input type="submit" value="Enviar mensaje" class="btn-submit" />
+                        <input type="submit" value="ENVIAR MENSAJE" className="btn-submit" />
                     </form>
                 </div>
-            </div>
+            </section>
         )
     }
 }

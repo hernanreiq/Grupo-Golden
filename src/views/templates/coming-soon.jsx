@@ -11,7 +11,7 @@ export function ComingSoonTemplate(projectsLength) {
     for (var i = 0; i < indexLimit; i++) {
         var photo = require(`../../img/coming-soon/coming-soon (${i + 1}).png`);
         result.push(
-            <div className="col my-2">
+            <div className="col my-2" key={i}>
                 <div className="project-container p-3">
                     <h4 className="text-center">PRÓXIMAMENTE</h4>
                     <img src={photo.default} alt="PRÓXIMAMENTE" className="shadow" />
