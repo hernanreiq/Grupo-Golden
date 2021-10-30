@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import photoProjects from "../../img/Proyectos en desarrollo.png";
 import ProjectsJSON from "../../json/projects.json";
 import ProjectTemplate from "../templates/project";
+import { ComingSoonTemplate } from "../templates/coming-soon";
 
 class Projects extends Component {
     state = {
@@ -27,6 +28,7 @@ class Projects extends Component {
                                 )
                             })
                             }
+                            {ComingSoonTemplate(ProjectsJSON.length)}
                         </div>
                     </div>
                 </div>
