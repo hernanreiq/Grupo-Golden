@@ -1,29 +1,12 @@
-.sobrenosotros {
-	position: relative;
-	width: 1920px;
-	height: 450px;
-}
-.fotosobrenosotros {
-	position: relative;
-	width: 100%;
-	height: 145px;
+section.information .title-information {
 	background-color: #f1f1f1;
-}
-.fotosobrenosotros img {
-	position: absolute;
-	left: 658px;
-	top: 50px;
-}
-.sobrenosotrosdescripcion {
-	position: absolute;
-	width: 100%;
-	height: 300px;
 	text-align: center;
 }
-.sobrenosotrosdescripcion p {
-	position: relative;
-	font-size: 25px;
-	font-weight: bold;
-    width: 935px;
-    left: 492.5px;
+section.information .title-information img {
+	margin: 50px 0px;
+	padding: 0px 15px;
+	height: auto;
+    min-width: 250px;
+	max-width: 600px;
+	width: 100%;
 }
