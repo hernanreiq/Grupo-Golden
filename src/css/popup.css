@@ -1,0 +1,237 @@
+
+/* POPUP */
+
+/*Configuracion del Div que contiene el popup*/
+.overlay {
+	background: rgba(0,0,0,.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	visibility: hidden;
+}
+/*Configuracion del div que contiene el popup cuando esta activo, es decir el popup abierto*/
+.overlay.active {
+	visibility: visible;
+}
+/*configuracion del div del popup*/
+.popup {
+	background: #F8F8F8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 7px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	height: 700px;
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+/*configuracion del boton para cerrar el popup*/
+.popup .btn-cerrar-popup {
+	font-size: 22px;
+	text-decoration: none;
+	transition: .3s ease all;
+	color: #000000;
+	position: absolute;
+	left: 25px;
+}
+/*reaccion del boton de cerrar el popup al pasarle el rato*/
+.popup .btn-cerrar-popup:hover {
+	color: #ff0000;
+}
+/*configuracion del heading 3 que esta dentro del popup*/
+.popup h3 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+/*configuracion del formulario que tiene la imagen que esta dentro del popup*/
+.popup form .contenedor-imagen {
+	opacity: 0;
+	position: relative;
+}
+
+/* Golden Packer - PopUp */
+/*enlace a golden packer que esta dentro del popup*/
+.EnlaceGoldenPacker {
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #f1d42e;
+	border: solid 2px #000000;
+	left: 440px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #000000;
+	padding: 10px 10px;
+	position: absolute;
+	top: 680px;
+}
+/*reaccion del enlace a golden packer que esta dentro del popup cuando le pasan el raton encima*/
+.EnlaceGoldenPacker:hover {
+	background-color: #000000;
+	border: solid 2px #f1d42e;
+	color: #f1d42e;
+}
+/*configuracion de la Foto dentro del popup que hace referencia a golden packer */
+.FP-GoldenPacker {
+	width: 220px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	border-radius: 25px;
+	top: 17px;
+}
+
+/* Loteria Golden - PopUp */
+/*enlace a Loteria Golden que esta dentro del popup*/
+.EnlaceLoteriaGolden {
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #f1d42e;
+	border: solid 2px #000000;
+	left: 440px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #000000;
+	padding: 10px 10px;
+	position: absolute;
+	top: 680px;
+}
+/*reaccion del enlace a Loteria Golden que esta dentro del popup cuando le pasan el raton encima*/
+.EnlaceLoteriaGolden:hover {
+	background-color: #000000;
+	border: solid 2px #f1d42e;
+	color: #f1d42e;
+}
+/*configuracion de la Foto dentro del popup que hace referencia a Loteria Golden */
+.FP-LoteriaGolden {
+	width: 220px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	border-radius: 25px;
+	top: 17px;
+}
+
+/* Earn Golden Money - PopUp */
+/*Enlace a Earn Golden Money dentro del popup*/
+.EnlaceEarnGoldenMoney {
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #f1d42e;
+	border: solid 2px #000000;
+	left: 440px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #000000;
+	padding: 10px 10px;
+	position: absolute;
+	top: 680px;
+}
+/*reaccion del enlace a Earn Golden Money que esta dentro del popup cuando le pasan el raton encima*/
+.EnlaceEarnGoldenMoney:hover {
+	background-color: #000000;
+	border: solid 2px #f1d42e;
+	color: #f1d42e;
+}
+/*configuracion de la Foto dentro del popup que hace referencia a Earn Golden Money */
+.FP-EarnGoldenMoney {
+	width: 220px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	border-radius: 25px;
+	top: 17px;
+}
+
+/*configurando el div que contiene la lista con informacion*/
+.informacion {
+	position: absolute;
+	left: 220px;
+	width: 380px;
+	height: 210px;
+	text-align: left;
+}
+/*configurando la lista dentro del div de informacion*/
+.informacion ul {
+	height: 210px;
+}
+/*configurando los elementos de la lista dentro del div de informacion*/
+.informacion ul li {
+	list-style: none;
+}
+/*configurando el div que contiene la historia */
+.historia {
+	position: absolute;
+	top: 330px;
+	width: 550px;
+	text-align: left 10px;
+	transition: .3s ease all;
+	left: 40px;
+}
+/*Configurando los enlaces que estan dentro del div de historia*/
+.historia a {
+	text-decoration: none;
+	color: #ff0000;
+}
+/*configurando la reaccion de los enlaces dentro del div de historia al pasarle el raton*/
+.historia a:hover {
+	color: #000;
+}
+
+/* ANIMACIONES - POPUP */
+
+.popup.active {	transform: scale(1); opacity: 1; }
+.popup.active h3 { animation: entradaTitulo .8s ease .5s forwards; }
+.popup.active p { animation: entradaParrafo .8s ease .5s forwards; }
+.popup.active .informacion { animation: entradaLista .8s ease .5s forwards; }
+.popup.active .contenedor-imagen { animation: entradaFoto .8s linear .5s forwards; }
+
+/*Titulos dentro del popup*/
+@keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+/*Foto dentro del popup*/
+@keyframes entradaFoto {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+/*Lista dentro del popup*/
+@keyframes entradaLista {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+/*Parrafo dentro del popup*/
+@keyframes entradaParrafo {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}

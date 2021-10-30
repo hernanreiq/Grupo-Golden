@@ -3,34 +3,25 @@
 	transition: all ease .5s;
 	text-align: center;
 	font-size: 20px;
+	padding: 0;
 }
 .menu ul {
-    list-style: none;
-	overflow: hidden;
+	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 .menu ul li {
-    display: inline-block;
+	display: inline-block;
 }
 .menu ul li button {
+	transition: all ease .5s;
     background: #383838;
     border: unset;
-	display: block;
 	padding: 15px 25px;
-	color: #fff;
 	color: #FFD700;
 	font-weight: bold;
 }
 .menu ul li button:hover {
 	background: #FFD700;
 	color: #383838;
-}
-.menu-fixed {
-	position: fixed;
-	z-index: 1000;
-	top: 0;
-	width: 100%;
-	padding: 0;
-	margin: 0;	
 }

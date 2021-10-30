@@ -1,0 +1,24 @@
+
+/*Configurando el footer de la pagina*/
+.footerpagina {
+	position: absolute;
+	background-color: #383838;
+	width: 1920px;
+	height: 120px;
+	text-align: center;
+}
+/*Posicionando las letras del footer*/
+footer {
+	position: relative;
+	color: #ffffff;
+	top: 20px;
+}
+/*Enlace del footer*/
+footer a {
+	color: #f1d42e;
+	text-decoration: none;
+}
+/*Reaccion al cruzar el raton por el enlace del footer*/
+footer a:hover {
+	color: #fff600;
+}

@@ -1,0 +1,84 @@
+
+/*Configurando la seccion de contacto*/
+
+/*Configurando el div que contiene el contacto*/
+.contacto {
+	position: relative;
+	width: 1920px;
+	height: 675px;
+	background-color: #beeeee;
+}
+/*Configurando la imagen que dice contacto dentro del div*/
+.contacto img {
+	position: absolute;
+	left: 788px;
+	top: 50px;
+}
+/*Configurando el div de la imagen que dice contacto*/
+.imagencontacto {
+	position: relative;
+	width: 100%;
+	height: 145px;
+	background-color: #c8dbdb;
+}
+/*Configuracion del formulario dentro del div*/
+.contenedor-form .form {
+	font-weight: normal;
+	color: #009AFF; 
+	text-align: center;
+	padding: 14px 0px;
+	color: #fff;
+	background-color: rgba(0,0,0,.6);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 7px;
+}
+/*Configurando las letras que corresponden a las cajas de texto dentro del formulario*/
+.contenedor-form .form .label-form {
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	position: relative;
+	font-family: Verdana;
+	padding-bottom: 2px;
+}
+/*Configurando las cajas de texto dentro del formulario */
+.contenedor-form .form .input-form, .textarea-form {
+	background: rgba(0,0,0,.7);
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #009AFF;
+	width: 90%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #fff;
+}
+/*Mejorando el textarea dentro del formulario*/
+.contenedor-form .form .textarea-form {
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+/*Diseño del boton de enviar mensaje que esta dentro del formulario*/
+.contenedor-form .form .btn-submit {
+	width: 94%;
+	outline: none;
+	background: #009AFF;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	padding: 15px 0px;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+/*reaccion del boton de enviar mensaje al pasar el raton por encima */
+.contenedor-form .form .btn-submit:hover {
+	color: #009AFF;
+	background: #000;
+}

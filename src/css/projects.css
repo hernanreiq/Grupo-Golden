@@ -1,0 +1,148 @@
+
+/*Configurando el tamaño del div*/
+.proyectosdesarrollo {
+	position: relative;
+	width: 1920px;
+	height: 1000px;
+}
+/*Configurando el div de la foto que dice proyectos en desarrollo*/
+.imagenproyectos {
+	position: relative;
+	background-color: #edebcf;
+	width: 100%;
+	height: 145px;
+}
+/*Configurando la imagen que dice proyectos en desarrollo*/
+.imagenproyectos img {
+	position: absolute;
+	left: 478px;
+	top: 50px;
+}
+
+/*Configurando div que tiene todos los proyectos en desarrollo*/
+.Proyectos {
+    position: relative;
+	width: 100%;
+	height: 855px;
+	background-color: #fdfbdc;
+}
+/*Agregando un pequeño borde redondeado a las imagenes de los proyectos*/
+.Proyectos img {
+	border-radius: 25px;
+}
+/*Configurando todos los botones con sus respectivos colores*/
+.Proyectos button {
+	position: absolute;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #f1d42e;
+	border: solid 2px #000000;
+	padding: 5px 5px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+/*Configurando lo que sucede al pasarle el raton a cualquier boton*/
+.Proyectos button:hover {
+	background-color: #000000;
+	border: solid 2px #f1d42e;
+	color: #f1d42e;
+}
+
+/*Configurando el div proyecto llamado Golden Packer*/
+.GoldenPacker {
+	position: relative;
+}
+/*Configurando la imagen de referencia a Golden Packer*/
+.GoldenPacker img {
+	position: absolute;
+	top: 50px;
+	left: 460px;
+}
+/*Posicionando el enlace a Golden Packer debajo de su imagen de referencia*/
+.GoldenPacker button {
+	top: 366px;
+	left: 530px;
+}
+
+/*Configurando el DIV del proyecto llamado Loteria Golden*/
+.LoteriaGolden {
+	position: relative;
+}
+/*Configurando la imagen del proyecto Loteria Golden*/
+.LoteriaGolden img {
+	position: absolute;
+	top: 50px;
+	left: 800px;
+}
+/*Posicionando el enlace del proyecto loteria golden*/
+.LoteriaGolden button {
+	top: 366px;
+	left: 868px;
+}
+
+/*Configurando el div del proyecto llamado Earn Golden Money*/
+.EarnGoldenMoney {
+	position: relative;
+}
+/*Configurando la imagen del proyecto Earn Golden Money */
+.EarnGoldenMoney img {
+	position: absolute;
+	top: 50px;
+	left: 1140px;
+}
+/*Posicionando el enlace a Earn Golden Money*/
+.EarnGoldenMoney button {
+	top: 366px;
+	left: 1181px;
+}
+
+/*Configurando div de proximament1*/
+.proximamente1 {
+	position: relative;
+}
+/*Configurando la imagen del proximamente1*/
+.proximamente1 img {
+	position: absolute;
+	top: 420px;
+	left: 460px;
+}
+/*configurando el enlace de proximamente1*/
+.proximamente1 button {
+	top: 735px;
+	left: 530px;
+}
+
+/*Configurando el div de proximamente2*/
+.proximamente2 {
+	position: relative;
+}
+/*Configurando la imagen del proximamente2*/
+.proximamente2 img {
+	position: absolute;
+	top: 420px;
+	left: 800px;
+}
+/*Configurando el enlace de proximamente2*/
+.proximamente2 button {
+	top: 735px;
+	left: 873px;
+}
+
+/*Configurando el div de proximamente3*/
+.proximamente3 {
+	position: relative;
+}
+/*Configurando la imagen de proximamente3*/
+.proximamente3 img {
+	position: absolute;
+	top: 420px;
+	left: 1140px;
+}
+/*Configurando el enlace de proximamente3*/
+.proximamente3 button {
+	top: 735px;
+	left: 1213px;
+}
