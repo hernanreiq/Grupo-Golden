@@ -2,11 +2,11 @@ import React from "react";
 
 export function Footer() {
     return (
-        <div class="footerpagina">
-            <footer>
-                <p>TODOS LOS DERECHOS ESTÁN RESERVADOS POR EL GRUPO GOLDEN. 
-                <br /><br /> Code by: <a href="https://www.instagram.com/hernan.reiq/" target="_blank"><b>Hernan.Reiq</b></a></p>
-            </footer>
-        </div>
+        <footer>
+            <div className="container py-4">
+                <p className="mb-0">TODOS LOS DERECHOS ESTÁN RESERVADOS POR EL GRUPO GOLDEN &copy;.
+                    <br /> Code by: <a href="https://github.com/hernanreiq" target="_blank" rel="noreferrer"><b>Hernan.Reiq</b></a></p>
+            </div>
+        </footer>
     )
 }
