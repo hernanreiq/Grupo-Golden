@@ -24,6 +24,7 @@ class Projects extends Component {
                                         key={i}
                                         photo={photo.default}
                                         project={project}
+                                        showModal={this.props.showModal}
                                     />
                                 )
                             })
