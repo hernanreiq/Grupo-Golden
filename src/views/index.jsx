@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Header } from "./partials/header";
-import { Navigation } from "./partials/nav";
+import Navigation from "./partials/nav";
 import { Information } from "./partials/information";
 import Projects from "./partials/projects";
 import Contact from "./partials/contact";
@@ -37,7 +37,7 @@ class Index extends Component {
                 <Contact />
                 <Footer />
                 {this.state.showModal &&
-                    <PopUp 
+                    <PopUp
                         show={this.state.showModal}
                         photo={this.state.photo}
                         project={this.state.projectData}

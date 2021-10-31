@@ -10,7 +10,7 @@ class Projects extends Component {
     }
     render() {
         return (
-            <section className="projects">
+            <section className="projects" id="section-projects">
                 <div className="title-projects">
                     <img src={photoProjects} alt="title projects" />
                 </div>

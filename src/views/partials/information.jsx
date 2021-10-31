@@ -3,7 +3,7 @@ import photoInformation from "../../img/Sobre Nosotros.png";
 
 export function Information() {
     return (
-        <section className="information">
+        <section className="information" id="section-information">
             <div className="title-information">
                 <img src={photoInformation} alt="title information" />
             </div>

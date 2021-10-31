@@ -4,7 +4,7 @@ import photoContact from "../../img/Contacto.png";
 class Contact extends Component {
     render() {
         return (
-            <section className="contact">
+            <section className="contact" id="section-contact">
                 <div className="title-contact">
                     <img src={photoContact} alt="contact" />
                 </div>
