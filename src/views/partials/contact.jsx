@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import photoContact from "../../img/Contacto.png";
 
 class Contact extends Component {
     render() {
         return (
-            <section className="contact" id="section-contact">
+            <section className="contact">
+                <div id="section-contact" className="react-scroll"></div>
                 <div className="title-contact">
-                    <img src={photoContact} alt="contact" />
+                    <h2 className="section-title section-contact">CONTACTO</h2>
                 </div>
                 <div className="container py-5 px-3">
                     <form className="form mx-auto" action="C:\Users\MaReiq\Desktop\Grupo Golden\Web\PHP\contacto.php" method="POST" autoComplete="off">

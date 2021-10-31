@@ -1,11 +1,11 @@
 import React from "react";
-import photoInformation from "../../img/Sobre Nosotros.png";
 
 export function Information() {
     return (
-        <section className="information" id="section-information">
+        <section className="information">
+            <div id="section-information" className="react-scroll"></div>
             <div className="title-information">
-                <img src={photoInformation} alt="title information" />
+                <h2 className="section-title section-information">SOBRE NOSOTROS</h2>
             </div>
             <div className="text-justify py-5 h5 px-3">
                 <div className="container">

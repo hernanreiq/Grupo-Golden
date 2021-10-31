@@ -2,11 +2,8 @@ section.information .title-information {
 	background-color: #f1f1f1;
 	text-align: center;
 }
-section.information .title-information img {
-	margin: 50px 0px;
-	padding: 0px 15px;
-	height: auto;
-    min-width: 250px;
-	max-width: 600px;
-	width: 100%;
+.section-information {
+    background: -webkit-linear-gradient(#0051ff, #01002b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

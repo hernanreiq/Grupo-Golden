@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import photoProjects from "../../img/Proyectos en desarrollo.png";
 import ProjectsJSON from "../../json/projects.json";
 import ProjectTemplate from "../templates/project";
 import { ComingSoonTemplate } from "../templates/coming-soon";
@@ -10,9 +9,10 @@ class Projects extends Component {
     }
     render() {
         return (
-            <section className="projects" id="section-projects">
+            <section className="projects">
+                <div id="section-projects" className="react-scroll"></div>
                 <div className="title-projects">
-                    <img src={photoProjects} alt="title projects" />
+                    <h2 className="section-title section-projects">PROYECTOS EN DESARROLLO</h2>
                 </div>
                 <div className="projects">
                     <div className="container p-3">
