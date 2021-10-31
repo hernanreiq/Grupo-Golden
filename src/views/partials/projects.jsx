@@ -16,7 +16,7 @@ class Projects extends Component {
                 </div>
                 <div className="projects">
                     <div className="container p-3">
-                        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                        <div className="row row-cols-1 row-cols-md-2 row-cols-xl-3">
                             {this.state.projects.map((project, i) => {
                                 let photo = require(`../../img/projects/${project.fileName}`);
                                 return (
